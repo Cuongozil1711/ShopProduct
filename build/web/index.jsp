@@ -18,7 +18,7 @@
 
 	<div id="main">
 		<div id="head">
-			<img src="images/banner.jpg" width="1057px" height="200px" />
+			<img src="images/banner.jpg" style={width="1057px" height="200px" />
 		</div>
 
 		<%

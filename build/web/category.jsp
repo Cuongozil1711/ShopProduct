@@ -12,25 +12,27 @@
 <link rel="stylesheet" href="css/category.css" />
 </head>
 <body>
-	<%
-		CategoryDAOImpl categoryDAO = new CategoryDAOImpl();
-		List<Category> list = new ArrayList<Category>();
-		list = categoryDAO.getList();
-	%>
 	<div class="container">
 		<nav>
 		<ul class="mcd-menu">
-			<%
-				for (Category c : list) {
-					
-			%>
-			<li><a href="index.jsp?ma_the_loai=<%=c.getMa_the_loai()%>"> <i class="fa fa-home"><img
-						src="images/<%=c.getMa_the_loai() %>.png"></i>
-					<strong><%=c.getTen_the_loai()%></strong> <small><%=c.getMo_ta()%></small>
+			
+			<li><a href="index.jsp?ma_the_loai=x"> <i class="fa fa-home"><img
+						src="images/book.png" class="icon_img" /></i>
+					<strong>Book</strong> 
 			</a></li>
-			<%
-				}
-			%>
+                        <li><a href="index.jsp?ma_the_loai=x"> <i class="fa fa-home"><img
+						src="images/electronic.jpg"  class="icon_img" /></i>
+					<strong>Electronics</strong>
+			</a></li>
+                         <li><a href="index.jsp?ma_the_loai=x"> <i class="fa fa-home"><img
+						src="images/6.png"  class="icon_img" /></i>
+					<strong>Shoes</strong> 
+			</a></li>
+                          <li><a href="index.jsp?ma_the_loai=x"> <i class="fa fa-home"><img
+						src="images/3.png" class="icon_img"  /></i>
+					<strong>Clothes</strong>
+			</a></li>
+			
 		</ul>
 		</nav>
 	</div>

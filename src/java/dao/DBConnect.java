@@ -22,7 +22,7 @@ public class DBConnect {
         public static Connection getConnecttion(){
             String jdbcURL = "jdbc:mysql://localhost:3306/pttk";
             String jdbcUsername = "root";
-            String jdbcPassword = "";
+            String jdbcPassword = "213006diepdo";
             Connection con = null;
             try {
                 Class.forName("com.mysql.jdbc.Driver");

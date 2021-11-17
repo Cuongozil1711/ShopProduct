@@ -17,12 +17,12 @@
 	<!--/start-login-one-->
 	<div class="login-01">
 		<div class="one-login  hvr-float-shadow">
-			<div class="one-login-head">
+<!--			<div class="one-login-head">
 				<img src="images/top-lock.png" alt="" />
 				<h1>LOGIN</h1>
 				
 				<span></span>
-			</div>
+			</div>-->
 			<form action="LoginServlet" method="post">
 				<% String mess="";
 				if (request.getAttribute("mess") != null){
@@ -30,12 +30,11 @@
 				<li style="color: red"><%=mess%></li>	
 					<% }%>
 				<li style="color: red"><%=err%></li>
-				Tên người dùng
+				<!--Tên người dùng-->
 				<li><input type="text" class="text" value=""
-					name="username"><a href="#" class=" icon user"></a></li>
-				Mật khẩu
+					name="username" placeholder="Username"><a href="#" class=" icon user"></a></li>
 				<li><input type="password" value=""
-					name="password"><a href="#" class=" icon lock"></a></li>
+					name="password" placeholder="Password"><a href="#" class=" icon lock"></a></li>
 				<div class="p-container">
 					<label class="checkbox"><input type="checkbox"
 						name="checkbox" checked><i></i>Ghi nhớ mật khẩu</label>
@@ -47,7 +46,7 @@
 				<div class="submit">
 					<input type="submit" value="SIGN IN">
 				</div>
-				<div class="social-icons">
+<!--				<div class="social-icons">
 					<p>Bạn có thể đăng nhập bằng tài khoản:</p>
 					<ul class="soc_icons2">
 						<li class="pic"><a href="#"><i class="icon_4"></i></a></li>
@@ -55,7 +54,7 @@
 						<li class="pic"><a href="#"><i class="icon_6"></i></a></li>
 						<div class="clear"></div>
 					</ul>
-				</div>
+				</div>-->
 				<h5>
 					Bạn muốn đăng ký tài khoản?<a href="register.jsp"> Đăng ký </a>
 				</h5>

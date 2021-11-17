@@ -20,7 +20,7 @@ public class DBConnect {
 //            return con;
 //	}
         public static Connection getConnecttion(){
-            String jdbcURL = "jdbc:mysql://localhost:3306/pttk";
+            String jdbcURL = "jdbc:mysql://localhost:3306/shopping";
             String jdbcUsername = "root";
             String jdbcPassword = "";
             Connection con = null;

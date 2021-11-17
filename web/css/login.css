@@ -86,7 +86,7 @@ img {
 /*end reset*/
 /****-----start-body----****/
 body {
-	background: #3aada9;
+	background:#264ECA ;
 	font-family: 'Cabin', sans-serif;
 }
 
@@ -122,9 +122,9 @@ body a,form li,.submit input[type="submit"] {
 .one-login {
 	width: 28%;
 	margin: 5% auto;
-	background: #fff;
+	background: #264ECA;
 	text-align: center;
-	border-bottom: 3px solid #1c817c;
+	/*border-bottom: 3px solid #1c817c;*/
 }
 /* Float Shadow */
 .hvr-float-shadow {
@@ -185,6 +185,7 @@ body a,form li,.submit input[type="submit"] {
 
 form {
 	padding: 12% 9%;
+        border: 1px solid #fff;
 }
 
 form li {
@@ -192,7 +193,9 @@ form li {
 	list-style: none;
 	margin-bottom: 25px;
 	width: 100%;
-	background: #dfdfdf;
+	background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
 }
 
 .icon {
@@ -214,10 +217,10 @@ form li {
 input[type="text"],input[type="password"],input[type="date"] {
 	width: 60%;
 	padding: 0.8em 4em 0.8em 1.7em;
-	color: #858282;
+	color: #000;
 	font-size: 17px;
 	outline: none;
-	background: none;
+	background: #fff;
 	font-weight: 500;
 	border: none;
 }
@@ -230,17 +233,18 @@ input[type="text"],input[type="password"],input[type="date"] {
 .submit input[type="submit"] {
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: #2148C0;
 	cursor: pointer;
 	outline: none;
 	padding: 13px 10px;
 	width: 100%;
 	border: none;
-	background: #ffc50c;
+	background: #fff;
+        border-radius: 8px;
 }
 
 input[type="submit"]:hover {
-	background: #D13E2F;
+	background: #fff;
 }
 
 h6 {
@@ -309,7 +313,7 @@ h6 {
 	padding-left: 40px;
 	font-size: 16px;
 	line-height: 14px;
-	color: #858282;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -320,7 +324,7 @@ h6 {
 
 .p-container  h6 a {
 	float: right;
-	color: #898989;
+	color: #fff;
 }
 
 .p-container  h6 a:hover {
@@ -358,7 +362,7 @@ label.checkbox {
 	color: #2da5da;
 }
 
-.p-container .checkbox input:checked+i,.p-container . input:checked+i {
+.p-container .checkbox input:checked+i,.p-container .input:checked+i {
 	border-color: #2da5da;
 }
 
@@ -425,7 +429,7 @@ ul.soc_icons2 li.pic a i.icon_6 {
 }
 
 .one-login h5 a,.one-login  h5 {
-	color: #898989;
+	color: #fff;
 	font-size: 16px;
 	text-align: center;
 	padding: 10px 0;
@@ -436,7 +440,7 @@ ul.soc_icons2 li.pic a i.icon_6 {
 }
 /*---login-02---------*/
 .two-login-head {
-	background: #702c91;
+	background: #264eca;
 	padding: 1em 1em;
 	text-align: center;
 	position: relative;
@@ -450,7 +454,7 @@ ul.soc_icons2 li.pic a i.icon_6 {
 }
 
 .two-login-head lable {
-	background: url('../images/tip2.png') no-repeat 0px 0px;
+	/*background: url('../images/tip2.png') no-repeat 0px 0px;*/
 	width: 30px;
 	height: 13px;
 	position: absolute;
@@ -460,7 +464,7 @@ ul.soc_icons2 li.pic a i.icon_6 {
 }
 
 .two-login h5,.two-login h5 a {
-	color: #848484;
+	color: #fff;
 	font-size: 16px;
 }
 
@@ -475,9 +479,8 @@ ul.soc_icons2 li.pic a i.icon_6 {
 .two-login {
 	width: 28%;
 	margin: 5% auto;
-	background: #fff;
+	background: #264ECA;
 	text-align: center;
-	border-bottom: 3px solid #1c817c;
 }
 
 .two-login-head h1 {
@@ -511,21 +514,21 @@ form.two li {
 }
 
 .user2 {
-	background: url(../images/icon2.png) no-repeat 0px -1px #702c91;
+	/*background: url(../images/icon2.png) no-repeat 0px -1px #702c91;*/
 }
 
 .lock2 {
-	background: url(../images/icon2.png) no-repeat -49px 0px #702c91;
+	/*background: url(../images/icon2.png) no-repeat -49px 0px #702c91;*/
 }
 
 .mail {
-	background: url(../images/icon2.png) no-repeat -99px 0px #702c91;
+	/*background: url(../images/icon2.png) no-repeat -99px 0px #702c91;*/
 }
 
 form.two input[type="text"],form.two input[type="password"] {
 	width: 60%;
 	padding: 0.8em 4em 0.8em 1.7em;
-	color: #858282;
+	color: #000;
 	font-size: 17px;
 	outline: none;
 	background: none;
@@ -541,21 +544,21 @@ form.two input[type="text"],form.two input[type="password"] {
 .submit.two input[type="submit"] {
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: #264ECA;
 	cursor: pointer;
 	outline: none;
 	padding: 13px 10px;
 	width: 100%;
 	border: none;
-	background: #702c91;
+	background: #fff;
 }
 
 .submit.two input[type="submit"]:hover {
-	background: #ffc50c;
+	background: #ffffffde;
 }
 
 .p-container a {
-	color: #702C91;
+	color: #e5e5e59c;
 	font-size: 15px;
 }
 
@@ -610,7 +613,7 @@ form.two input[type="text"],form.two input[type="password"] {
 	margin: 5% auto;
 	background: #fff;
 	text-align: center;
-	border-bottom: 3px solid #1c817c;
+	/*border-bottom: 3px solid #1c817c;*/
 }
 
 .three-login-head h1 {
@@ -649,8 +652,8 @@ form.three li {
 
 form.three input[type="text"],form.three input[type="password"] {
 	width: 60%;
-	padding: 0.8em 4em 0.8em 1.7em;
-	color: #858282;
+	padding: 0.8em 0 0.8em 0;
+	color: #fff;
 	font-size: 17px;
 	outline: none;
 	background: none;
@@ -770,7 +773,7 @@ form.three input[type="text"],form.three input[type="password"] {
 	input[type="text"],input[type="password"] {
 		width: 62%;
 		padding: 0.9em 1em 0.9em 1.7em;
-		color: #858282;
+		color: #fff;
 		font-size: 16px;
 	}
 	.social-icons p {

@@ -24,31 +24,24 @@
 			</div>
 			<form action="RegisterServlet" method="post">
 				<li style="color: red"><%=err%></li>
-				Tên người dùng
 				<li><input type="text" class="text" value=""
-					name="username"><a href="#" class=" icon2 user2"></a></li>
-				Mật khẩu	
+					name="username" placeholder="Username"><a href="#" class=" icon2 user2"></a></li>
 				<li><input type="password" value=""
-					name="password"><a href="#" class=" icon2 lock2"></a></li>
-				Ngày sinh
+					name="password" placeholder="Password"><a href="#" class=" icon2 lock2"></a></li>
 				<li><input type="date" value=""
-					name="ngaysinh"><a href="#" class=" icon2 lock2"></a></li>
-				Giới tính
+					name="ngaysinh" placeholder="Date of birth"><a href="#" class=" icon2 lock2"></a></li>
 				<li><input type="text" value="" list="exampleList"
-					name="gioitinh"> 
+					name="gioitinh" placeholder="Gender"> 
 					<datalist id="exampleList">
-					<option value="Nam">
-					<option value="Nữ">
+					<option value="Male">
+					<option value="Female">
 					</datalist><a href="#" class=" icon2 lock2"></a></li>
-				Email
 				<li><input type="text" value=""
-					name="email"><a href="#" class=" icon2 lock2"></a></li>
-				Số điện thoại
+					name="email" placeholder="Email"><a href="#" class=" icon2 lock2"></a></li>
 				<li><input type="text" value=""				
-					name="sdt"><a href="#" class=" icon2 lock2"></a></li>
-				Địa chỉ
+					name="sdt" placeholder="Phone"><a href="#" class=" icon2 lock2"></a></li>
 				<li><input type="text" value=""
-					name="diachi"><a href="#" class=" icon2 lock2"></a></li>
+					name="diachi" placeholder="Address"><a href="#" class=" icon2 lock2"></a></li>
 					
 				<div class="p-container">
 					<label class="checkbox two"><input type="checkbox"
